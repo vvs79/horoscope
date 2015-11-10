@@ -13,7 +13,6 @@ y = gets
   ab unless y.size==5 || (1901..2015).include?(y.to_i) 
     y_ = y.to_i
 	puts '--------------------------------------------'
-  end
 
 
 print 'Enter Month of Your Birthday (from 1 to 12) : '
