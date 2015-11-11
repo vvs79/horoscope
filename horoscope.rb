@@ -8,20 +8,19 @@ end
 
 puts '--------------------------------------------'
 
-print 'Enter Year of Your Birthday (like 1999) : '
+print 'Enter Year when You were born (from 1901 to 2015) : '
 y = gets
   ab unless y.size==5 || (1901..2015).include?(y.to_i) 
     y_ = y.to_i
 	puts '--------------------------------------------'
 
-
-print 'Enter Month of Your Birthday (from 1 to 12) : '
+print 'Enter Month when You were born (from 1 to 12) : '
 m = gets
   ab unless m.size==3 || (1..12).include?(m.to_i) 
     m_ = m.to_i
 	puts '--------------------------------------------'
 
-print 'Enter Day of Your Birthday (from 1 to 31) : '
+print 'Enter Day when You were born (from 1 to 31) : '
 d = gets
   ab unless d.size==3 || (1..31).include?(d.to_i) 
     d_ = d.to_i
@@ -59,7 +58,7 @@ d = gets
   
   File.open(filename) { |f| f.each { |line| print line } }
   puts ' '
-  print '--------------------------------------------'
+  print 'БУВАЙ ДРУЖЕ--------------------------------------------'
   puts ' '
 
 
